@@ -1,0 +1,513 @@
+<footer>
+<div class="grupo">
+    <div class="caja">
+        <h2>Hotel Playa</h2>
+        <p>Whatsapp: +54 6742 4324 </p>
+        <p>Correo: HotelPlaya@gmail.com</p>
+        <p>Direccion: Av.Libertadores 1875</p>
+    </div>
+    <div class="caja">
+        <h2>Redes Sociales</h2>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank" <i class="ri-instagram-line icon"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" <i class="ri-facebook-circle-line icon"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank" <i class="ri-whatsapp-line icon"></i></a>
+        </div>
+    </div>
+</div>
+<div class="grupo-2">
+    <small>&copy; <b>www.Hotelplaya.com.ar</b>| Desarrollado por grupo 3</small>
+</div>
+</footer>
+
+
+
+*{
+font-family: 'EB Garamond', serif;
+font-family: 'Oswald', sans-serif;
+
+}
+*{    font-family: 'EB Garamond', serif;
+font-family: 'Oswald', sans-serif;
+
+}
+
+/* header */
+header{
+background-color: #000000;
+color: aliceblue;
+padding-top: 30px;
+min-height: 70px;
+border-bottom:#a0a0a0  3px solid;
+position: sticky;
+top:  0px;
+z-index: 1000;
+}
+
+header a{
+color: aliceblue;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 17px;
+font-weight: 400;
+}
+header li{
+float: left;
+display: inline;
+padding: 0 20px;
+}
+header nav{
+float: right;
+margin-top: 0;
+}
+header #logo{
+float: left;
+} 
+header #logo h1{
+margin: 0;
+}
+header .marcado{
+color:#15B32F ;
+}
+header .actual{
+color:#15B32F ;
+font-weight: 800;
+}
+header a:hover{
+color:#15B32F ;
+}
+
+.contenedor{
+margin: auto;
+width: 80%;
+overflow: hidden;
+font-size: 25px;
+
+}
+.contenedor h1{
+text-align: center;
+font-size: 30px;
+color: white;
+
+}
+body{
+background-color: #1c1c1c ;
+margin: 0;
+padding: 0;
+position: relative;
+min-height: 100vh;
+padding-bottom: 0px;
+}
+/* footer */
+footer{
+width: 100%;
+background-color:#15b32f ;
+}
+footer .grupo{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 50px;
+padding: 45px 0px;
+}
+footer .grupo .caja h2{
+color: #000000;
+text-shadow: #1c1c1c 2px 2px 6px;
+margin-bottom: 25px;
+font-size: 30px;
+}
+footer .grupo .caja p{
+font-size: 20px;
+color: #1c1c1c;
+margin-bottom: 10px;
+text-shadow: #1c1c1c 2px 2px 6px;
+}
+footer .grupo .redes-sociales a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: black;
+margin-right: 10px;
+text-align: center;
+transition: all 300ms ease;
+}
+footer .grupo .redes-sociales a:hover{
+color:  white;
+}
+footer .grupo-2{
+padding: 15px 10px;
+text-align: center;
+background-color: #0e9e26;
+}
+footer .grupo-2 small{
+font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+footer .grupo{
+width: 90%;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 30px;
+padding: 35px 0px;
+}
+
+}
+
+
+/*BOTONESSSSS*/
+ul{
+margin-top: 10px;
+padding: 0;
+}
+.icon {
+color: #fff;
+animation: first_color .5s ease-in-out infinite alternate;
+}
+.icon:nth-child(2) {
+animation-name: second_color;
+}
+.icon:nth-child(3) {
+animation-name: third_color;
+}
+@keyframes first_color {
+0% {
+text-shadow: 0 0 10px #ff1177,
+0 0 20px #d6249f, 0 0 30px #285AEB
+}
+
+100% {
+text-shadow: 0 0 5px #ff1177,
+0 0 10px #d6249f, 0 0 15px #285AEB
+}
+}
+
+@keyframes second_color {
+0% {
+text-shadow: 0 0 10px #1877f2,
+0 0 20px #1459b3, 0 0 30px #179bff
+}
+
+100% {
+text-shadow: 0 0 5px #1877f2,
+0 0 10px #1459b3, 0 0 15px #179bff
+}
+}
+
+@keyframes third_color {
+0% {
+text-shadow: 0 0 10px #25d366,
+0 0 20px #48ee85, 0 0 30px #0ec0a5
+}
+
+100% {
+text-shadow: 0 0 5px #25d366,
+0 0 10px #48ee85, 0 0 15px #0ec0a5
+}
+}
+.caja a{
+text-decoration: none;
+font-size: 40px;
+margin-left: 30px;
+}
+
+/*Experiencia */
+.imagen_hotel_playas_servicios{
+    /* width: 70%;
+    height: 70%; */
+    text-align: center;
+    margin-top: 1%;
+}
+.imagen_hotel_playas_servicios img{
+    width: 75%;
+    
+    border-radius: 6px;
+    border-style:double;
+}
+.ir_servicios p{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: #000000 2px 2px 6px;
+    color: white;
+    
+}
+#hr1{
+    width: 74%;
+    border-bottom: #000000 3px ;
+}
+.div_button{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button{
+    background: linear-gradient(102deg, rgb(0, 0, 0) 1%, #0e9e26 99%);
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 40px;
+    min-width: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+}
+/* slider */
+
+.container{
+    margin: auto;
+    width: 700px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin-left: -260px;
+    margin-top: 10px;
+  }
+  ul.slide1{
+    width: 900px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 257px;
+      top: 0px;
+      opacity: 0;
+      width: 700px;
+      height: 200px;
+      transition: opacity .5s;
+      background:#ffffff;
+      border: rgb(221, 221, 221) solid 2px;
+      border-radius: 15px;
+  }
+  .container h2{
+    text-align: center;
+    color: #fff;
+    text-shadow: #000000 2px 2px 6px;
+  }
+  ul.slider li h3{
+    margin-left: 70px;
+    margin-top: -45px;
+  }
+  ul.slider li p{
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-right: -90px;
+    font-size: 15px;
+  }
+  ul.slider li .sub{
+    width:100%;
+    margin-left: -100px;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  ul.slider li .res2{
+    margin-left: 500px;
+    margin-top: -275px;
+  }
+  ul.slider li .cal{
+    width: 100px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 30px;
+
+  }
+  
+  ul.slider li img{
+    margin-left: 15px;
+    margin-top: 15px;
+
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  .menu li p{
+    text-align: center;
+    margin-top: -7px;
+  }
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+  .testimonios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%
+  }
+  .testimonios_header{
+    margin: 50px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonios_header h1{
+    font-size: 2.9rem;
+    font-weight: 500;
+    background-color: #a0a0a0;
+    color: white;
+    padding: 10px 20px;
+
+  }
+  .testimonios_header span{
+    font-size: 2.2rem;
+    color: #252525;
+    text-transform: uppercase;
+
+  }
+
+
+
+@media (max-width: 768px){
+    footer{
+        background-color:#0e9e26 ;
+        padding: 0px;
+        text-align: center;
+        color: aliceblue;
+        margin-top: 0;
+        position: static;
+        width: 100%;
+        margin-bottom: 0px;
+        text-shadow:#000000 2px 2px 3px;
+        top: 0px;
+    
+    }
+    header #logo,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header li{
+        padding: 0 10px;
+    }
+    header h1{
+        font-size: 28px;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    .servicio_1{
+        background-color:#1c1c1c;
+        width: 70%;
+        margin-left: 15%;
+        display:inline-block;
+    }
+    .servicio_1 h3{
+        font-size:22px;
+        color: white;
+        
+    }
+    .servicio_1 p{
+        margin-top:0px;
+        width: 70%;
+        color: #fff;
+    }
+    .servicio_1 img{
+        height: 150px;
+        float: right;
+        position: relative;
+        margin-top: -5.7%;
+        border-radius: 7px;
+        padding: 5px;
+        margin-left: 20px;
+    
+    }
+    .servicio_2{
+        background-color:#1c1c1c;
+        width: 70%;
+        margin-left: 15%;
+        display:inline-block;
+    }
+    .servicio_2 h3{
+        font-size:22px;
+        color: white;
+        
+    }
+    .servicio_2 p{
+        margin-top:0px;
+        width: 70%;
+        color: #fff;
+    }
+    .servicio_2 img{
+        height: 150px;
+        float: right;
+        position: relative;
+        margin-top: -5.7%;
+        border-radius: 7px;
+        padding: 5px;
+        margin-left: 20px;
+    
+    }
+    .servicio_3{
+        background-color:#1c1c1c;
+        width: 70%;
+        margin-left: 15%;
+        display:inline-block;
+    }
+    .servicio_3 h3{
+        font-size:22px;
+        color: white;
+        
+    }
+    .servicio_3 p{
+        margin-top:0px;
+        width: 70%;
+        color: #fff;
+    }
+    .servicio_3 img{
+        width: 225px;
+        height: 150px;
+        float: right;
+        position: relative;
+        margin-top: -5.7%;
+        border-radius: 7px;
+        padding: 5px;
+        margin-left: 20px;
+    
+    }
+    .slider{
+    }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio de diseño y desarrollo web, de uade Pionmar">
+    <meta http-equiv=”Content-Language” content=”es”/>
+    <meta name="keywords" content="Pinamar, vacaciones, contactos, Ubicación,hotel">
+    <link rel="stylesheet" href="estilosC.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div id="logo">
+                <h1><span class="marcado">Hotel</span> playa</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="../Index/index.html" >Inicio</a></li>
+                    <li> <a href="../Nosotros/Nosotros.html">Nosotros</a></li>
+                    <li> <a href="../Contacto/contacto.html" class="actual">Contacto</a></li>
+                    <li> <a href="../FQA/FQA.html">Preguntas Frecuentes</a></li>
+                    <li> <a href="../Experiencia/experiencia.html">Experiencia</a></li>
+                </ul>
+                <hr>
+            </nav>
+        </div>
+    </header>
+    <section id="vidriera_contacto">
+        <h1>PINAMAR</h1>
+    </section>
+    <section id="contacto">
+        
+        <div class="contenedor">
+            <br>
+            <hr>
+                <h1>Mapa</h1>
+                <p class="destacado">En este mapa se muestra la ubicacion de el hotel, si quiere utilizar su telefono como GPS pulse el boton "Como llegar".<br>
+                Tambien si lo desea puede ver las reseñas sobre nuestro hotel.</p>
+            <hr>
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Pinamar,%20playas%20hotel+(Hotel%20Playa)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car Navigation Systems</a></iframe>
+            <aside id="cuadrito">
+                <div class="destacado">
+                    <h2>¡Realiza tu reserva!</h2>
+                    <hr>
+                    <form action="envio.php" class="contacto">
+                        <div class="Conts">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" id="nombre" placeholder="Nombre y apellido">
+                        </div>
+                        <hr>
+                        <div class="Conts">
+                            <label for="mail">E-mail</label>
+                            <input type="email" id="mail" placeholder="E-Mail">
+                        </div>
+                       <hr>
+                        <div class="Conts">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="3" placeholder="Escriba algun mensaje para que conozcamos sus preferencias!"></textarea>
+                        </div>
+                        <hr>
+                       <br>
+                        <div class="Conts">
+                            <label for="fechaentrada">Fecha Entrada</label>
+                            <input type="date" name="ElegirFecha1" value="Fecha entrada">
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="Conts">
+                            <label for="fechasalida">Fecha Salida</label>
+                            <input type="date" name="ElegirFecha2" value="Fecha salida">
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="Conts">
+                        <input type="button" name="Enviar" value="Enviar reserva">
+                        </div>
+                        <hr>
+
+                    </form>
+                    
+                </div>
+
+            </aside>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="grupo">
+            <div class="caja">
+                <h2>Hotel Playa</h2>
+                <p>Whatsapp: +54 6742 4324 </p>
+                <p>Correo: HotelPlaya@gmail.com</p>
+                <p>Direccion: Av.Libertadores 1875</p>
+            </div>
+            <div class="caja">
+                <h2>Redes Sociales</h2>
+                <div class="redes-sociales">
+                    <a href="https://www.instagram.com/" target="_blank" <i class="ri-instagram-line icon"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" <i class="ri-facebook-circle-line icon"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank" <i class="ri-whatsapp-line icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; <b>www.Hotelplaya.com.ar</b>| Desarrollado por grupo 3</small>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,523 @@
+*{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+*{    font-family: 'EB Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* header */
+header{
+    background-color: #000000;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#a0a0a0  3px solid;
+    position: sticky;
+    top:  0px;
+    z-index: 1000;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 0;
+}
+header #logo{
+    float: left;
+} 
+header #logo h1{
+    margin: 0;
+}
+header .marcado{
+    color:#15B32F ;
+}
+header .actual{
+    color:#15B32F ;
+    font-weight: 800;
+}
+header a:hover{
+    color:#15B32F ;
+}
+
+.contenedor{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    font-size: 25px;
+
+}
+.contenedor h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+    }
+body{
+    background-color: #1c1c1c ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 0px;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color:#15b32f ;
+}
+footer .grupo{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+footer .grupo .caja h2{
+    color: #000000;
+    text-shadow: #1c1c1c 2px 2px 6px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+footer .grupo .caja p{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+    text-shadow: #1c1c1c 2px 2px 6px;
+}
+footer .grupo .redes-sociales a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+footer .grupo .redes-sociales a:hover{
+    color:  white;
+}
+footer .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #0e9e26;
+}
+footer .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+    footer .grupo{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    
+}
+
+
+/*BOTONESSSSS*/
+ul{
+    margin-top: 10px;
+    padding: 0;
+}
+.icon {
+    color: #fff;
+    animation: first_color .5s ease-in-out infinite alternate;
+}
+.icon:nth-child(2) {
+    animation-name: second_color;
+}
+.icon:nth-child(3) {
+    animation-name: third_color;
+}
+@keyframes first_color {
+    0% {
+        text-shadow: 0 0 10px #ff1177,
+            0 0 20px #d6249f, 0 0 30px #285AEB
+    }
+
+    100% {
+        text-shadow: 0 0 5px #ff1177,
+            0 0 10px #d6249f, 0 0 15px #285AEB
+    }
+}
+
+@keyframes second_color {
+    0% {
+        text-shadow: 0 0 10px #1877f2,
+            0 0 20px #1459b3, 0 0 30px #179bff
+    }
+
+    100% {
+        text-shadow: 0 0 5px #1877f2,
+            0 0 10px #1459b3, 0 0 15px #179bff
+    }
+}
+
+@keyframes third_color {
+    0% {
+        text-shadow: 0 0 10px #25d366,
+            0 0 20px #48ee85, 0 0 30px #0ec0a5
+    }
+
+    100% {
+        text-shadow: 0 0 5px #25d366,
+            0 0 10px #48ee85, 0 0 15px #0ec0a5
+    }
+}
+.caja a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+#EstoEsHotelPlaya{
+    background-color:#1c1c1c;
+    text-align: center;
+    float: none;
+    font-size: 15px;
+    color: #fff;
+}
+#EstoEsHotelPlaya p{
+    padding-right: 10%;
+    text-align: left;
+    font-size: 21px;
+    padding-right: 10%;
+}
+
+/* atributos generales */
+.contenedor{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    font-size: 25px;
+
+}
+.contenedor h1{
+text-align: center;
+font-size: 30px;
+color: white;
+
+}
+.contenedor iframe{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2%;
+
+}
+
+.boton{
+    background: linear-gradient(102deg, rgb(0, 0, 0) 1%, #0e9e26 99%);
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 40px;
+    min-width: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    cursor: pointer;
+}
+ul{
+    margin-top: 10px;
+    padding: 0;
+}
+aside#cuadrito{
+    float: none;
+    width: 100%;
+    margin-top: 90px;
+}
+.titulo{
+    font-size: 30px;
+    color: #A84343;
+    padding-bottom: 0;
+}
+.destacado{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px;
+
+}
+::placeholder{
+    font-family: 'Plus Jakarta Sans',
+    sans-serif;
+    color:#1c1c1c ;
+}
+
+
+/* header */
+
+
+/* Vidriera */
+#vidriera{
+   
+    background-image: url(https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/12/88/1288105_v3.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+}
+#vidriera h1{
+    margin-top: 90px;
+    font-size: 60px;
+    font-weight: 100;
+    z-index: 100;
+}
+#vidriera p{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+/* Esto es hotel playa */
+
+#EstoEsHotelPlaya{
+    background-color:#1c1c1c;
+    text-align: center;
+    float: none;
+    font-size: 15px;
+    color: #fff;
+
+}
+#EstoEsHotelPlaya p{
+    padding-right: 10%;
+    text-align: left;
+    font-size: 21px;
+    padding-right: 10%;
+}
+/*CSS HECHO POR LUCIANO PIEHL*/
+/* SLIDER*/
+#todo{
+    margin-left: auto;
+    margin-right: auto;
+}
+#sliderr{
+  max-width: 100%;
+  background-color: #1c1c1c;
+  /*width: 100%;*/
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+/*  padding-left: 38% ;*/
+  display: flex;
+  justify-content: center;
+}
+
+#sliderr > ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+#sliderr > ul.slider{
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+}
+
+#sliderr > ul.slider h1{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+  
+
+}
+
+#sliderr > ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+#sliderr > ul.slider li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    background-color: #1c1c1c;
+    margin-left: -1px;
+    margin-top: -0.8px;
+    border-radius: 0px;
+}
+
+#sliderr > ul.slider li:first-child {
+    opacity: 1; /*Muestra el primer <li>*/
+}
+
+#sliderr > ul.slider li:target {
+    opacity: 1; /*Muestra el <li> del enlace que pulsemos*/
+}
+
+#newsletter2 > .menu{
+  text-align: center;
+/*  margin: 20px;*/
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #1c1c1c;
+  margin: 0px;
+  padding-top: 5px;
+  
+
+}
+
+#newsletter2 > .menu li{
+  display: inline-block;
+  text-align: center;
+  
+}
+
+#newsletter2 > .menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+/*TERMINA SLIDER DE INDEX*/
+/* newsletter */
+#newsletter{
+    background-color: #1c1c1c;
+    color: aliceblue;
+    padding: 15px;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top:15px;
+}
+#newsletter input{
+    width: 200px;
+    height: 20px;
+    padding: 4px;
+}
+
+
+/* media query */
+@media (max-width: 768px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    footer{
+    padding: 0.1px;
+    text-align: center;    
+    }
+    header #logo,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header li{
+        padding: 0 10px;
+    }
+    header h1{
+        font-size: 28px;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    header a{
+        font-size: 15PX;
+    }
+    #vidriera h1{
+        margin-top: 40px;
+    }
+    #vidriera p{
+        font-size: 18px;
+    }
+    #newsletter h3,
+    #newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #newsletter input{
+        width: 100%;
+    }
+    .boton{
+        width: 100%;
+        display: block;
+    }
+    #boxes .box,
+    #boxes h2{
+        float: none;
+        text-align: center;
+        max-width: 100%;  
+    }
+    #boxes p{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    #boxes .box img{
+        max-inline-size: 200px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    article#somos-columna{
+        float: none;
+        max-width: 100%;
+    }
+    aside#cuadrito{
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #EstoEsHotelPlaya img{
+        position: relative;
+        padding-right: 20px ;
+        width: 700px;
+        padding-left: 75%;  
+        padding-top: 19%;
+
+    }
+   #EstoEsHotelPlaya p{
+    padding-right: 125px;
+   }
+   #newsletter2 .menu{
+        padding: 10px;
+   }
